@@ -1,4 +1,4 @@
-# React-Date-Picker
+# English React-Date-Picker
 
 ### Simple Version
 
@@ -39,6 +39,10 @@ export default App;
 
 ### Beautiful Version
 
+to see more beautiful datepickers:
+
+https://react.rocks/tag/DatePicker
+
 Installation:
 
 ```
@@ -77,4 +81,27 @@ function App() {
 
 export default App;
 
+```
+
+
+
+# Persian DatePicker
+
+Installation:
+
+```
+$. yarn add react-modern-calendar-datepicker
+```
+
+Or
+
+```
+$. npm i react-modern-calendar-datepicker
+```
+
+After the installation, it's time to import the package in your app:
+
+```
+import 'react-modern-calendar-datepicker/lib/DatePicker.css';
+import DatePicker from 'react-modern-calendar-datepicker';
 ```
