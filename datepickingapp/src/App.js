@@ -1,20 +1,21 @@
 import React, { useState } from "react";
 import "./App.css";
 
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
+import "react-modern-calendar-datepicker/lib/DatePicker.css";
+import DatePicker from "react-modern-calendar-datepicker";
 
 function App() {
   const [selectedDate, setSelectedDate] = useState(null);
   return (
     <div className="App">
       <DatePicker
+        width={300}
+        height={300}
+        value={selectedDate}
         selected={selectedDate}
         onChange={(date) => setSelectedDate(date)}
-        peekNextMonth
-        showMonthDropdown
-        showYearDropdown
-        dropdownMode="select"
+        locale="fa"
+        shouldHighlightWeekends
       />
     </div>
   );
