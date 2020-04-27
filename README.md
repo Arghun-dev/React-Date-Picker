@@ -2,9 +2,13 @@
 
 ### Simple Version
 
+Installation:
+
 ```
 $. yarn add react-datepicker
 ```
+
+Usage:
 
 ```
 import React, { useState } from "react";
@@ -35,9 +39,13 @@ export default App;
 
 ### Beautiful Version
 
+Installation:
+
 ```
 $. npm install react-infinite-calendar --save
 ```
+
+Usage:
 
 ```
 import React, { useState } from "react";
